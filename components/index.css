@@ -1,0 +1,11 @@
+@import url("../components/nav/index.css");
+
+@import url("../components/button/index.css");
+
+:root {
+	--color-default: #efefef;
+	--color-background: #f2eee4;
+	--color-primary: #5065a8;
+	--color-success: #4bb543;
+	--color-error: #d9534f;
+}
