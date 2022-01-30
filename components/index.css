@@ -3,7 +3,10 @@
 @import url("../components/button/index.css");
 
 :root {
+<<<<<<< HEAD
 	--color-black: #000000;
+=======
+>>>>>>> button
 	--color-default: #efefef;
 	--color-background: #f2eee4;
 	--color-primary: #5065a8;
