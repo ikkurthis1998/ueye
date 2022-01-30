@@ -78,6 +78,10 @@
 	cursor: pointer;
 }
 
+.nav-menu-item-active {
+	font-weight: 400;
+}
+
 @keyframes toggleActivate {
 	0% {
 		transform: translate(100%, 0);
