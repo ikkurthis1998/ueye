@@ -1,7 +1,7 @@
 .btn {
 	padding: 0.5rem 1rem;
 	border-radius: 0.25rem;
-	border: 1px solid #efefef;
+	border: 1px solid var(--color-default);
 	font-size: 1rem;
 	display: flex;
 	justify-content: center;
@@ -23,25 +23,25 @@
 }
 
 .btn-primary {
-	background-color: #5065a8;
-	color: #f2eee4;
-	border: 1px solid #5065a8;
+	background-color: var(--color-primary);
+	color: var(--color-background);
+	border: 1px solid var(--color-primary);
 }
 
 .btn-success {
-	background-color: #4bb543;
-	color: #f2eee4;
-	border: 1px solid #4bb543;
+	background-color: var(--color-success);
+	color: var(--color-background);
+	border: 1px solid var(--color-success);
 }
 
 .btn-error {
-	background-color: #d9534f;
-	color: #f2eee4;
-	border: 1px solid #d9534f;
+	background-color: var(--color-error);
+	color: var(--color-background);
+	border: 1px solid var(--color-error);
 }
 
 .btn-outline {
-	border: 1px solid #000000;
+	border: 1px solid;
 	opacity: 0.6;
 }
 
@@ -50,23 +50,23 @@
 }
 
 .btn-outline-primary {
-	border: 1px solid #5065a8;
-	background-color: #f2eee4;
+	border: 1px solid var(--color-primary);
+	background-color: var(--color-background);
 }
 
 .btn-outline-success {
-	border: 1px solid #4bb543;
-	background-color: #f2eee4;
+	border: 1px solid var(--color-success);
+	background-color: var(--color-background);
 }
 
 .btn-outline-error {
-	border: 1px solid #d9534f;
-	background-color: #f2eee4;
+	border: 1px solid var(--color-error);
+	background-color: var(--color-background);
 }
 
 .btn-link {
 	text-decoration: underline;
-	background-color: #f2eee4;
+	background-color: var(--color-background);
 }
 
 .btn-link:hover {
@@ -74,15 +74,15 @@
 }
 
 .btn-link-primary {
-	text-decoration-color: #5065a8;
+	text-decoration-color: var(--color-primary);
 }
 
 .btn-link-success {
-	text-decoration-color: #4bb543;
+	text-decoration-color: var(--color-success);
 }
 
 .btn-link-error {
-	text-decoration-color: #d9534f;
+	text-decoration-color: var(--color-error);
 }
 
 .btn-icon {
