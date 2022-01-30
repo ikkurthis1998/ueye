@@ -1,7 +1,5 @@
 .nav {
 	width: 100%;
-	min-width: 300px;
-	max-width: 80rem;
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
@@ -76,6 +74,10 @@
 
 .nav-menu-toggle:hover {
 	cursor: pointer;
+}
+
+.nav-menu-item-active {
+	font-weight: 400;
 }
 
 @keyframes toggleActivate {
