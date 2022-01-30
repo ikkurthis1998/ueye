@@ -1,0 +1,139 @@
+.btn {
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #efefef;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.btn-disabled.btn {
+	opacity: 0.5 !important;
+}
+
+.btn.btn-disabled:hover {
+	cursor: not-allowed;
+}
+
+.btn-primary {
+	background-color: #5065a8;
+	color: #f2eee4;
+	border: 1px solid #5065a8;
+}
+
+.btn-success {
+	background-color: #4bb543;
+	color: #f2eee4;
+	border: 1px solid #4bb543;
+}
+
+.btn-error {
+	background-color: #d9534f;
+	color: #f2eee4;
+	border: 1px solid #d9534f;
+}
+
+.btn-outline {
+	border: 1px solid #000000;
+	opacity: 0.6;
+}
+
+.btn-outline:hover {
+	opacity: 1;
+}
+
+.btn-outline-primary {
+	border: 1px solid #5065a8;
+	background-color: #f2eee4;
+}
+
+.btn-outline-success {
+	border: 1px solid #4bb543;
+	background-color: #f2eee4;
+}
+
+.btn-outline-error {
+	border: 1px solid #d9534f;
+	background-color: #f2eee4;
+}
+
+.btn-link {
+	text-decoration: underline;
+	background-color: #f2eee4;
+}
+
+.btn-link:hover {
+	font-weight: 500;
+}
+
+.btn-link-primary {
+	text-decoration-color: #5065a8;
+}
+
+.btn-link-success {
+	text-decoration-color: #4bb543;
+}
+
+.btn-link-error {
+	text-decoration-color: #d9534f;
+}
+
+.btn-icon {
+	width: 1.2rem;
+}
+
+.btn-floating-bottom-right {
+	position: absolute;
+	bottom: 0.5rem;
+	right: 0.5rem;
+	z-index: 1;
+}
+
+.btn-floating-top-right {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+	z-index: 1;
+}
+
+.btn-floating-bottom-left {
+	position: absolute;
+	bottom: 0.5rem;
+	left: 0.5rem;
+	z-index: 1;
+}
+
+.btn-floating-top-left {
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+	.btn {
+		padding: 0.75rem 1.5rem;
+		font-size: 1.1rem;
+	}
+
+	.btn-icon {
+		width: 1.3rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.btn {
+		padding: 0.75rem 2rem;
+		font-size: 1.2rem;
+	}
+	.btn-icon {
+		width: 1.4rem;
+	}
+}
