@@ -7,6 +7,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	position: relative;
+	padding: 0.5rem;
 }
 
 .nav-logo {
@@ -59,10 +60,7 @@
 }
 
 .nav-menu-item:hover a {
-	/* color: var(--color-primary);  */
 	font-weight: 400;
-	/* border-radius: 0.2rem;
-	border-bottom: solid 0.1rem var(--color-primary); */
 	text-decoration: underline;
 	text-decoration-color: var(--color-primary);
 }
@@ -96,8 +94,6 @@
 	flex-basis: 100%;
 	justify-content: flex-end;
 	padding: 0.5rem;
-	/* position: absolute; */
-	/* left: 100%; */
 	animation: toggleActivate 0.3s ease-in-out;
 }
 

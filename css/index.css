@@ -50,6 +50,10 @@ a:hover {
 	cursor: pointer;
 }
 
+.highlight {
+	font-weight: 600;
+}
+
 .root {
 	display: flex;
 	flex-direction: column;
