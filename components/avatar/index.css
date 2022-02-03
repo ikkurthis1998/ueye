@@ -1,0 +1,109 @@
+.avatar {
+	--width: 4rem;
+	width: var(--width);
+	margin: 0.5rem;
+	position: relative;
+}
+
+.avatar-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.avatar.avatar-xs {
+	--width: 3rem;
+	width: var(--width);
+}
+
+.avatar.avatar-sm {
+	--width: 4rem;
+	width: var(--width);
+}
+
+.avatar.avatar-md {
+	--width: 5rem;
+	width: var(--width);
+	width: 6rem;
+}
+
+.avatar.avatar-lg {
+	--width: 6rem;
+	width: var(--width);
+}
+
+.avatar.avatar-xl {
+	--width: 7rem;
+	width: var(--width);
+}
+
+.avatar.avatar-xxl {
+	--width: 8rem;
+	width: var(--width);
+}
+
+.avatar.avatar-xxxl {
+	--width: 9rem;
+	width: var(--width);
+}
+
+.avatar-online {
+	width: calc(var(--width) / 3.5);
+	height: calc(var(--width) / 3.5);
+	background-color: var(--color-success);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid var(--color-default);
+	border-radius: 50%;
+}
+
+.avatar-offline {
+	width: calc(var(--width) / 3.5);
+	height: calc(var(--width) / 3.5);
+	background-color: var(--color-offline);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid var(--color-default);
+	border-radius: 50%;
+}
+
+.avatar-busy {
+	width: calc(var(--width) / 3.5);
+	height: calc(var(--width) / 3.5);
+	background-color: var(--color-error);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: 1px solid var(--color-default);
+	border-radius: 50%;
+}
+
+@media only screen and (min-width: 425px) {
+	.avatar {
+		--width: 5rem;
+		width: var(--width);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.avatar {
+		--width: 6rem;
+		width: var(--width);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.avatar {
+		--width: 7rem;
+		width: var(--width);
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.avatar {
+		--width: 7.5rem;
+		width: var(--width);
+	}
+}
