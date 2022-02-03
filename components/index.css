@@ -2,6 +2,8 @@
 
 @import url("../components/button/index.css");
 
+@import url("../components/avatar/index.css");
+
 :root {
 	--color-black: #000000;
 	--color-default: #efefef;
@@ -9,4 +11,5 @@
 	--color-primary: #5065a8;
 	--color-success: #4bb543;
 	--color-error: #d9534f;
+	--color-offline: #d9d9d9;
 }
