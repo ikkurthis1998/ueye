@@ -4,12 +4,28 @@
 
 @import url("../components/avatar/index.css");
 
+@import url("../components/alert/index.css");
+
 :root {
 	--color-black: #000000;
 	--color-default: #efefef;
 	--color-background: #f2eee4;
-	--color-primary: #5065a8;
-	--color-success: #4bb543;
-	--color-error: #d9534f;
 	--color-offline: #d9d9d9;
+	--color-offline-light: #f5f5f5;
+	--color-primary: #5065a8;
+	--color-primary-light: #cbd9f1;
+	--color-primary-lighter: #e6f0ff;
+	--color-primary-dark: #2f4b6e;
+	--color-success: #4bb543;
+	--color-success-light: #d6e9c6;
+	--color-success-lighter: #dff0d8;
+	--color-success-dark: #3c763d;
+	--color-warning: #f0ad4e;
+	--color-warning-light: #ffeeba;
+	--color-warning-lighter: #fff3cd;
+	--color-warning-dark: #856404;
+	--color-error: #d9534f;
+	--color-error-light: #f5c6cb;
+	--color-error-lighter: #f8d7da;
+	--color-error-dark: #721c24;
 }
