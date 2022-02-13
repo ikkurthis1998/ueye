@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/index.css" />
+		<script
+			defer
+			type="module"
+			src="../javascript/index.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Ueye</title>
+	</head>
+	<body>
+		<div class="root">
+			<nav class="nav">
+				<a class="nav-logo" href="../index.html">
+					<img
+						src="../images/ueye_logo.png"
+						alt="Ueye Logo"
+						class="nav-logo-image"
+					/>
+					<!-- <a>
+						<h1 class="nav-title">Ueye</h1>
+					</a> -->
+				</a>
+				<div class="nav-menu-toggle">
+					<img
+						src="../images/menu_black_24dp.svg"
+						alt="Menu Toggle"
+						class="nav-menu-toggle-image"
+					/>
+				</div>
+				<div class="nav-menu">
+					<ul class="nav-menu-list">
+						<li class="nav-menu-item nav-menu-item-active">
+							<a href="installation.html">Documentation</a>
+						</li>
+						<li class="nav-menu-item">
+							<a href="about.html">About</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="documentation">
+				<h1 class="documentation-title">Components</h1>
+				<h1 class="documentation-sub-title">Card</h1>
+				<p class="documentation-description">
+					The card component is used to display content in a card-like
+					format.
+				</p>
+				<div class="documentation-content">
+					<h2 class="documentation-sub-title-sm">
+						Vertical/Horizantal Cards
+					</h2>
+
+					<div class="cards-container">
+						<!-- Card with header on top -->
+						<div class="card-container">
+							<div class="card-basic">
+								<div class="card-content">
+									<div class="card-content-padding">
+										<header>
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+									</div>
+									<img class="card-image" />
+									<div
+										class="card-description card-content-padding"
+									>
+										Visit ten places on our planet that are
+										undergoing the biggest changes
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Vertical Card -->
+						<div class="card-container">
+							<div class="card-basic">
+								<div class="card-content">
+									<img class="card-image" />
+									<div class="card-content-padding">
+										<header class="card-header">
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+										<div class="card-description">
+											Visit ten places on our planet that
+											are undergoing the biggest changes
+										</div>
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Horizantal Card -->
+						<div class="card-container">
+							<div class="card-basic">
+								<div
+									class="card-content card-content-horizontal"
+								>
+									<img class="card-image" />
+									<header class="card-header">
+										<h2 class="card-title">
+											Our Changing Planet
+										</h2>
+										<h3 class="card-author">
+											by Kurt Wagner
+										</h3>
+									</header>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card with text overlay -->
+					<h2 class="documentation-sub-title-sm">
+						Card with text overlay
+					</h2>
+					<div class="cards-container">
+						<div class="card-container">
+							<div class="card-basic">
+								<div class="card-content">
+									<div class="card-image-header">
+										<img class="card-image" />
+										<header
+											class="card-header card-content-padding card-header-on-image"
+										>
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+									</div>
+									<div
+										class="card-description card-content-padding"
+									>
+										Visit ten places on our planet that are
+										undergoing the biggest changes
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2 class="documentation-sub-title-sm">
+						Card with dismiss button and badge
+					</h2>
+					<div class="cards-container">
+						<div class="card-container">
+							<img
+								class="card-dismiss"
+								src="../images/close_black_24dp.svg"
+							/>
+							<div class="card-basic">
+								<div class="card-content">
+									<img class="card-image" />
+									<div class="card-content-padding">
+										<header class="card-header">
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+										<div class="card-description">
+											Visit ten places on our planet that
+											are undergoing the biggest changes
+										</div>
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-container">
+							<img
+								class="card-dismiss"
+								src="../images/close_black_24dp.svg"
+							/>
+							<div class="card-badge">verified</div>
+							<div class="card-basic">
+								<div class="card-content">
+									<img class="card-image" />
+									<div class="card-content-padding">
+										<header class="card-header">
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+										<div class="card-description">
+											Visit ten places on our planet that
+											are undergoing the biggest changes
+										</div>
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2 class="documentation-sub-title-sm">
+						Card with only text and card with shadow
+					</h2>
+					<div class="cards-container">
+						<div class="card-container">
+							<img
+								class="card-dismiss"
+								src="../images/close_black_24dp.svg"
+							/>
+							<div class="card-basic">
+								<div class="card-content">
+									<div class="card-content-padding">
+										<header class="card-header">
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+										<div class="card-description">
+											Visit ten places on our planet that
+											are undergoing the biggest changes
+										</div>
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-container card-shadow">
+							<img
+								class="card-dismiss"
+								src="../images/close_black_24dp.svg"
+							/>
+							<div class="card-basic">
+								<div class="card-content">
+									<div class="card-content-padding">
+										<header class="card-header">
+											<h2 class="card-title">
+												Our Changing Planet
+											</h2>
+											<h3 class="card-author">
+												by Kurt Wagner
+											</h3>
+										</header>
+										<div class="card-description">
+											Visit ten places on our planet that
+											are undergoing the biggest changes
+										</div>
+									</div>
+								</div>
+								<div class="card-controller-container">
+									<div class="card-button-container">
+										<button class="card-button">
+											READ
+										</button>
+										<button class="card-button">
+											BOOKMARK
+										</button>
+									</div>
+									<div class="card-icon-container">
+										<button class="card-icon">
+											<img
+												src="../images/heart_outline.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/share_solid.svg"
+											/>
+										</button>
+										<button class="card-icon">
+											<img
+												src="../images/vertical_dots_solid.svg"
+											/>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<a class="footer-btn-left" href="../pages/badge.html">
+					<button class="btn btn-link btn-link-primary">
+						<img
+							src="../images/chevron_left_black_24dp.svg"
+							alt="Right Arrow Icon"
+							class="btn-icon"
+						/>
+						Badge
+					</button>
+				</a>
+				<a class="footer-btn-right" href="../pages/installation.html">
+					<button class="btn btn-link btn-link-primary">
+						Installation
+						<img
+							src="../images/chevron_right_black_24dp.svg"
+							alt="Right Arrow Icon"
+							class="btn-icon"
+						/>
+					</button>
+				</a>
+			</footer>
+		</div>
+	</body>
+</html>

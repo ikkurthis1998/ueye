@@ -1,5 +1,6 @@
-import { toggleNavMenu } from "../components/nav/index.js";
+import { toggleNavMenu, fetchImage } from "../components/index.js";
 
 window.onload = () => {
 	toggleNavMenu();
+	fetchImage();
 };

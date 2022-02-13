@@ -8,8 +8,12 @@
 
 @import url("../components/badge/index.css");
 
+@import url("../components/card/index.css");
+
 :root {
+	--color-white: #ffffff;
 	--color-black: #000000;
+	--color-black-light: rgba(0, 0, 0, 0.5);
 	--color-default: #efefef;
 	--color-background: #f2eee4;
 	--color-offline: #d9d9d9;
