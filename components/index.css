@@ -10,6 +10,8 @@
 
 @import url("../components/card/index.css");
 
+@import url("../components/input/index.css");
+
 :root {
 	--color-white: #ffffff;
 	--color-black: #000000;

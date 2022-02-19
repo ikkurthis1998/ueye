@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/index.css" />
+		<script
+			defer
+			type="module"
+			src="../javascript/index.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Ueye</title>
+	</head>
+	<body>
+		<div class="root">
+			<nav class="nav">
+				<a class="nav-logo" href="../index.html">
+					<img
+						src="../images/ueye_logo.png"
+						alt="Ueye Logo"
+						class="nav-logo-image"
+					/>
+					<!-- <a>
+						<h1 class="nav-title">Ueye</h1>
+					</a> -->
+				</a>
+				<div class="nav-menu-toggle">
+					<img
+						src="../images/menu_black_24dp.svg"
+						alt="Menu Toggle"
+						class="nav-menu-toggle-image"
+					/>
+				</div>
+				<div class="nav-menu">
+					<ul class="nav-menu-list">
+						<li class="nav-menu-item nav-menu-item-active">
+							<a href="installation.html">Documentation</a>
+						</li>
+						<li class="nav-menu-item">
+							<a href="about.html">About</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<section class="documentation">
+				<h1 class="documentation-title">Components</h1>
+				<h1 class="documentation-sub-title">Input</h1>
+				<p class="documentation-description">
+					The input component is used to collect user input.
+				</p>
+				<div class="documentation-content">
+					<h2 class="documentation-sub-title-sm">Standard</h2>
+					<div class="inputs-container">
+						<label class="input-container">
+							<input class="input" type="text" placeholder=" " />
+							<span class="input-label">Basic</span>
+						</label>
+						<label class="input-container input-success">
+							<input class="input" type="text" placeholder=" " />
+							<span class="input-label">Success</span>
+						</label>
+						<label class="input-container input-error">
+							<input class="input" type="text" placeholder=" " />
+							<span class="input-label">Error</span>
+						</label>
+					</div>
+					<h2 class="documentation-sub-title-sm">Email</h2>
+					<div class="inputs-container">
+						<label class="input-container">
+							<input
+								class="input"
+								type="email"
+								placeholder=" "
+								required
+								pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+							/>
+							<span class="input-label">Email</span>
+						</label>
+					</div>
+					<h2 class="documentation-sub-title-sm">Password</h2>
+					<div class="inputs-container">
+						<label class="input-container">
+							<input
+								class="input"
+								type="password"
+								placeholder=" "
+								required
+							/>
+							<span class="input-label">Password</span>
+						</label>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<a class="footer-btn-left" href="../pages/badge.html">
+					<button class="btn btn-link btn-link-primary">
+						<img
+							src="../images/chevron_left_black_24dp.svg"
+							alt="Right Arrow Icon"
+							class="btn-icon"
+						/>
+						Badge
+					</button>
+				</a>
+				<a class="footer-btn-right" href="../pages/installation.html">
+					<button class="btn btn-link btn-link-primary">
+						Installation
+						<img
+							src="../images/chevron_right_black_24dp.svg"
+							alt="Right Arrow Icon"
+							class="btn-icon"
+						/>
+					</button>
+				</a>
+			</footer>
+		</div>
+	</body>
+</html>
