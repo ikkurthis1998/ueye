@@ -7,37 +7,17 @@
 	height: 100%;
 	box-sizing: border-box;
 	overflow: scroll;
-}
-
-.documentation-title {
-	font-weight: 400;
-	color: var(--color-primary);
-}
-
-.documentation-sub-title {
-	font-weight: 500;
-	font-size: 1.2rem;
+	flex-grow: 1;
 }
 
 .documentation-content {
 	font-size: 1rem;
-}
-
-.documentation-sub-title-sm {
-	font-weight: 600;
-	font-size: 1.1rem;
-	padding-top: 1rem;
-}
-
-.documentation-description {
-	margin-block-start: 1rem;
-	margin-block-end: 1rem;
-	line-height: 1.4rem;
+	padding: 0.5rem 0;
 }
 
 @media only screen and (min-width: 768px) {
 	.documentation {
-		padding: 2rem;
+		padding: 0 2rem;
 	}
 }
 

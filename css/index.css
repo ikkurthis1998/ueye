@@ -94,9 +94,7 @@ a:hover {
 	color: var(--color-primary);
 }
 
-.main-description {
-	font-size: 1.2rem;
-	font-weight: 300;
+.text-center {
 	text-align: center;
 }
 
@@ -109,6 +107,10 @@ a:hover {
 	box-sizing: border-box;
 	gap: 1rem;
 	padding: 2rem;
+}
+
+.margin-left {
+	margin-left: 1rem;
 }
 
 @media only screen and (min-width: 425px) {
