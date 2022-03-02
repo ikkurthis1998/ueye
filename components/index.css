@@ -14,6 +14,8 @@
 
 @import url("../components/image/index.css");
 
+@import url("../components/typography/index.css");
+
 :root {
 	--color-white: #ffffff;
 	--color-black: #000000;

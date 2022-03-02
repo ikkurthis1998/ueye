@@ -130,7 +130,7 @@
 
 @media only screen and (min-width: 768px) {
 	.nav {
-		padding: 1.5rem;
+		padding: 1rem;
 	}
 
 	.nav-logo-image {
@@ -165,8 +165,8 @@
 
 @media only screen and (min-width: 1024px) {
 	.nav {
-		padding-right: 2rem;
-		padding-left: 2rem;
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
 	}
 
 	.nav-logo-image {
@@ -201,8 +201,8 @@
 
 @media only screen and (min-width: 1440px) {
 	.nav {
-		padding-right: 2.5rem;
-		padding-left: 2.5rem;
+		padding-right: 2rem;
+		padding-left: 2rem;
 	}
 
 	.nav-logo-image {
@@ -241,8 +241,8 @@
 
 @media only screen and (min-width: 2560px) {
 	.nav {
-		padding-right: 3rem;
-		padding-left: 3rem;
+		padding-right: 2.5rem;
+		padding-left: 2.5rem;
 	}
 
 	.nav-logo-image {
